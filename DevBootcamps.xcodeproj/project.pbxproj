@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		837987BA1D062B1200783388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837987B91D062B1200783388 /* AppDelegate.swift */; };
 		837987BC1D062B1200783388 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837987BB1D062B1200783388 /* FirstViewController.swift */; };
-		837987BE1D062B1200783388 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837987BD1D062B1200783388 /* SecondViewController.swift */; };
+		837987BE1D062B1200783388 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837987BD1D062B1200783388 /* LocationVC.swift */; };
 		837987C11D062B1200783388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837987BF1D062B1200783388 /* Main.storyboard */; };
 		837987C31D062B1200783388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837987C21D062B1200783388 /* Assets.xcassets */; };
 		837987C61D062B1200783388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837987C41D062B1200783388 /* LaunchScreen.storyboard */; };
+		83D156D61D063ABB00B16BB2 /* BootcampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D156D51D063ABB00B16BB2 /* BootcampAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		837987B61D062B1200783388 /* DevBootcamps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevBootcamps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837987B91D062B1200783388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		837987BB1D062B1200783388 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		837987BD1D062B1200783388 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		837987BD1D062B1200783388 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		837987C01D062B1200783388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		837987C21D062B1200783388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		837987C51D062B1200783388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837987C71D062B1200783388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D156D51D063ABB00B16BB2 /* BootcampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootcampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				837987B91D062B1200783388 /* AppDelegate.swift */,
 				837987BB1D062B1200783388 /* FirstViewController.swift */,
-				837987BD1D062B1200783388 /* SecondViewController.swift */,
+				837987BD1D062B1200783388 /* LocationVC.swift */,
+				83D156D51D063ABB00B16BB2 /* BootcampAnnotation.swift */,
 				837987BF1D062B1200783388 /* Main.storyboard */,
 				837987C21D062B1200783388 /* Assets.xcassets */,
 				837987C41D062B1200783388 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837987BE1D062B1200783388 /* SecondViewController.swift in Sources */,
+				837987BE1D062B1200783388 /* LocationVC.swift in Sources */,
 				837987BA1D062B1200783388 /* AppDelegate.swift in Sources */,
 				837987BC1D062B1200783388 /* FirstViewController.swift in Sources */,
+				83D156D61D063ABB00B16BB2 /* BootcampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				837987CC1D062B1200783388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
